@@ -57,12 +57,12 @@ const AboutSection = () => {
                 Hello! I'm Tamilarasu K
               </h3>
               <p className="text-portfolio-text-muted leading-relaxed mb-6">
-                Currently pursuing my Bachelor of Science in Computer Science at Sri Ramakrishna College of Arts & Science, 
+                I completed my Bachelor of Science in Computer Science at Sri Ramakrishna College of Arts & Science, 
                 Coimbatore. With a strong foundation in programming and web development, I'm passionate about creating 
                 innovative solutions that make a difference.
               </p>
               <p className="text-portfolio-text-muted leading-relaxed">
-                When I'm not coding, you'll find me exploring the latest in AI and machine learning, contributing to 
+                When I'm not coding, you'll find me exploring the latest in AI tools, contributing to 
                 open-source projects, or listening to lo-fi music while debugging. I believe in the power of clean code 
                 and continuous learning to build better software.
               </p>
