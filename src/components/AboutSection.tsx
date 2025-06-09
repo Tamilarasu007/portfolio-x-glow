@@ -37,8 +37,12 @@ const AboutSection = () => {
           <div className="flex justify-center lg:justify-start">
             <div className="relative">
               <div className="w-80 h-80 rounded-2xl bg-gradient-to-br from-portfolio-accent to-portfolio-accent-secondary p-1">
-                <div className="w-full h-full rounded-2xl bg-portfolio-dark flex items-center justify-center">
-                  <User className="w-32 h-32 text-portfolio-text-muted" />
+                <div className="w-full h-full rounded-2xl overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/305d0a7d-7584-4f2d-8ae5-3918f56b45c8.png" 
+                    alt="Tamilarasu K - Profile Picture"
+                    className="w-full h-full object-cover rounded-2xl"
+                  />
                 </div>
               </div>
               <div className="absolute -top-4 -right-4 w-24 h-24 bg-portfolio-accent/20 rounded-full blur-xl" />
