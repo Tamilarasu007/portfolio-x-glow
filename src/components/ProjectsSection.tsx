@@ -11,6 +11,60 @@ const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
+      title: "High-Security Video Analysis Framework",
+      description: "Designed a real-time video analytics system with advanced object tracking and facial recognition capabilities.",
+      longDescription: "A comprehensive security framework that combines AI-driven models with computer vision to provide real-time video analysis. The system features intrusion detection, anomalous behavior analysis, and efficient processing of high-definition video streams.",
+      tech: ["Python", "OpenCV", "TensorFlow", "AI"],
+      category: "ai",
+      image: "🛡️",
+      features: [
+        "Real-time object tracking and facial recognition",
+        "Intrusion detection using AI-driven models",
+        "Anomalous behavior analysis and classification",
+        "Motion detection with real-time alerts",
+        "Optimized for high-definition video streams"
+      ],
+      github: "#",
+      demo: "#"
+    },
+    {
+      id: 2,
+      title: "College Sports Application",
+      description: "Built a mobile application to manage college sports events and student registrations.",
+      longDescription: "A comprehensive mobile solution for college sports management featuring separate dashboards for students and staff. The application provides real-time event updates, team management capabilities, and performance tracking with a smooth user experience.",
+      tech: ["React Native", "Firebase", "Mobile"],
+      category: "mobile",
+      image: "🏆",
+      features: [
+        "Separate dashboards for students and staff",
+        "Firebase authentication and real-time database",
+        "Event management and student registration",
+        "Team management and performance tracking",
+        "Intuitive user interface with React Native"
+      ],
+      github: "#",
+      demo: "#"
+    },
+    {
+      id: 3,
+      title: "LAN-Based Chatbot",
+      description: "Developed an AI-powered chatbot for local area network communication with NLP capabilities.",
+      longDescription: "An intelligent communication system designed for local area networks, featuring Natural Language Processing for contextual responses and secure file-sharing capabilities. The system operates completely offline without internet dependency.",
+      tech: ["Python", "NLP", "Flask", "Socket.IO"],
+      category: "ai",
+      image: "💬",
+      features: [
+        "AI-powered chatbot with NLP integration",
+        "Intelligent and contextual response generation",
+        "Real-time communication via Socket.IO",
+        "Secure file-sharing between users",
+        "Offline communication system for LAN networks"
+      ],
+      github: "#",
+      demo: "#"
+    },
+    {
+      id: 4,
       title: "2D to 3D Shape Converter",
       description: "Built a web application that converts 2D images into 3D models by detecting contours using OpenCV.js and extruding them with Three.js.",
       longDescription: "This innovative project combines computer vision with 3D graphics to transform 2D images into interactive 3D models. The application uses advanced contour detection algorithms to identify shapes and automatically generates realistic 3D representations with customizable extrusion parameters.",
@@ -27,7 +81,7 @@ const ProjectsSection = () => {
       demo: "#"
     },
     {
-      id: 2,
+      id: 5,
       title: "Anomaly Detection Application",
       description: "Created an Anomaly Detection Application to help users track number of people entering or exiting inside a room space.",
       longDescription: "A sophisticated Python-based application designed for real-time monitoring and anomaly detection in space occupancy. The system provides accurate tracking and alerts for unusual patterns in foot traffic.",
@@ -44,7 +98,7 @@ const ProjectsSection = () => {
       demo: "#"
     },
     {
-      id: 3,
+      id: 6,
       title: "Media Downloader",
       description: "Developed a Python application that downloads YouTube videos or extracts audio as MP3 with metadata tagging.",
       longDescription: "A comprehensive media downloading solution that provides high-quality video and audio extraction from YouTube with advanced metadata management and organization features.",
@@ -61,7 +115,7 @@ const ProjectsSection = () => {
       demo: "#"
     },
     {
-      id: 4,
+      id: 7,
       title: "Android Music Player",
       description: "Designed a basic music player app for Android that scans local storage, lists .mp3 files, and allows playback from selected folders.",
       longDescription: "A clean and intuitive Android music player focused on simplicity and performance. Features local music library management with folder-based organization and smooth playback experience.",
@@ -78,7 +132,7 @@ const ProjectsSection = () => {
       demo: "#"
     },
     {
-      id: 5,
+      id: 8,
       title: "QR Code Scanner",
       description: "Built a lightweight Android app for real-time scanning of QR codes and barcodes using Google ML Kit and CameraX API.",
       longDescription: "A fast and reliable QR code scanning application built with modern Android technologies. Features real-time detection with camera preview and support for various barcode formats.",
@@ -95,7 +149,7 @@ const ProjectsSection = () => {
       demo: "#"
     },
     {
-      id: 6,
+      id: 9,
       title: "Vehicle Detection System",
       description: "Built an automated system to detect vehicles from highway traffic video using the YOLOv5 object detection model.",
       longDescription: "An advanced computer vision system for traffic monitoring and analysis. Processes highway video feeds to identify and track different vehicle types with high accuracy and performance optimization.",
