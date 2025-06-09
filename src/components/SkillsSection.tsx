@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Code, User, Book, Mail } from 'lucide-react';
@@ -22,7 +21,11 @@ const SkillsSection = () => {
     ],
     tools: [
       { name: 'VS Code', level: 95, icon: '💻' },
+      { name: 'PyCharm', level: 85, icon: '🐍' },
+      { name: 'NetBeans', level: 75, icon: '☕' },
       { name: 'Android Studio', level: 80, icon: '🤖' },
+      { name: 'Postman', level: 85, icon: '📮' },
+      { name: 'GitHub', level: 90, icon: '🐙' },
       { name: 'Photoshop', level: 75, icon: '🎨' },
       { name: 'Power BI', level: 70, icon: '📊' },
       { name: 'MongoDB', level: 65, icon: '🍃' }
