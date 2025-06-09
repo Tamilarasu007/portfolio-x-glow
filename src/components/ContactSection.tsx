@@ -49,7 +49,7 @@ const ContactSection = () => {
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      url: '#',
+      url: 'www.linkedin.com/in/tamilarasu-k',
       color: 'hover:text-blue-400'
     },
     {
